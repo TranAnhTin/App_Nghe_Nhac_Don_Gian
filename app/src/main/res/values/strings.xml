@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppNgheNhac</string>
+    <string name="dontaccount">"Don't have an account? "</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
