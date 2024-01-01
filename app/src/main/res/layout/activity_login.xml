@@ -34,6 +34,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="30dp">
     <TextView
         android:id="@+id/txt"
         android:layout_width="wrap_content"
@@ -41,7 +48,6 @@
         android:text="@string/dontaccount"
         android:textAlignment="center"
         android:textSize="16sp" />
-
     <TextView
         android:id="@+id/logtosign"
         android:layout_width="wrap_content"
@@ -51,6 +57,7 @@
         android:textColor="@color/PurpleDark"
         android:textSize="16sp"
         android:textStyle="bold" />
+    </RelativeLayout>
     <!-- ProgressBar for Loading Time -->
     <ProgressBar
         android:id="@+id/progressBar"

@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        playMedia.setText(
-                "PlayMedia");
+        playMedia = findViewById(R.id.pm);
+        playMedia.setText("PlayMedia");
     }
 }

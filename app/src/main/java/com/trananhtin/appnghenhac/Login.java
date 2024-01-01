@@ -35,6 +35,9 @@ public class Login extends AppCompatActivity {
         passwordTextView = findViewById(R.id.password);
         Btn = findViewById(R.id.login);
         progressbar = findViewById(R.id.progressBar);
+        createAccountTextView=findViewById(R.id.logtosign);
+
+        setupCreateAccountTextViewListener();
         // Set on Click Listener on Sign-in button
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
