@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AppNgheNhac"
 include(":app")
+include(":app")

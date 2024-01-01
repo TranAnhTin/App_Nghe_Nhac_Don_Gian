@@ -2,4 +2,6 @@
     <string name="app_name">AppNgheNhac</string>
     <string name="dontaccount">"Don't have an account? "</string>
     <string name="sign_up">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
